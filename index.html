@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>*!* KOTEEK BUSIK CELEBRATES ANOTHER BIRTHDAY *!*</title>
+    <title>ANOTHER ONE BUSIK BIRTHDAY!!!</title>
     <link rel="stylesheet" href="public/bday.css">
     <script type='text/javascript'>
         msg = document.title;
@@ -29,19 +29,23 @@
         document.getElementById("cats").style.visibility = "visible";
         document.getElementById("twentyfive").style.visibility = "visible";
         document.getElementById("bday").style.visibility = "visible";
+        document.getElementById("catly").style.visibility = "visible";
+        document.getElementById("busikdj").style.visibility = "visible";
         document.getElementById("tap").style.visibility = "hidden";
         document.getElementById("barsik").style.visibility = "visible";
     }
 </script>
-<audio id="audio" src="public/asereje.mp3" loop></audio>
-<div style="position:relative;display:flex;height:100vh;">
-    <img src="public/cats.gif" alt="BUSIK BDAY" id="cats" style="position: relative;display:block;margin:auto;height:100%;visibility: hidden"/>
-    <img src="public/tap.gif" alt="BUSIK BDAY" width="10%" id="tap" style="position: absolute;right:35px" onclick="onTap()"/>
-    <img src="public/bday.gif" alt="BUSIK BDAY" width="20%" id="bday" style="position: absolute;right:35px; top:135px;visibility: hidden"/>
-    <img src="public/pudding.gif" alt="BUSIK BDAY" width="50%" id="twentyfive" style="position: absolute;top:440px;left:-160px;visibility: hidden"/>
+<audio id="audio" src="public/leanin.mp3" loop></audio>
+<div style="position:relative;display:flex">
+    <img src="public/cats.gif" alt="BUSIK BDAY" width="100%" id="cats" class="fullscreen-img" style="visibility: hidden"/>
+    <img src="public/tap.gif" alt="BUSIK BDAY" id="tap" style="height:20vh;position:fixed;left:50%;bottom:50%;" onclick="onTap()"/>
+    <img src="public/catbd.gif" alt="BUSIK BDAY" width="20%" id="bday" style="visibility: hidden" class="right-top-img"/>
+    <img src="public/busikdj.gif" alt="BUSIK BDAY" width="20%" id="busikdj" style="visibility: hidden" class="right-bottom-img"/>
+    <img src="public/catly.gif" alt="BUSIK BDAY" width="20%" id="catly" style="visibility: hidden" class="left-bottom-img"/>
+    <img src="public/leancat.gif" alt="BUSIK BDAY" id="twentyfive" style="visibility: hidden" class="left-top-img"/>
     <div class="el-wrap x" style="position: absolute;visibility: hidden" id="barsik">
         <div class="el y">
-            <img src='public/busik.gif' alt="BUSIK BDAY" width="150%">
+            <img src='public/busik.gif' alt="BUSIK BDAY" class="floating-img">
         </div>
     </div>
 </div>
